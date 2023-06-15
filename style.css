@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient( #39445a 0%, #4a4e8a 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 0%;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+p{
+    color: #fff;
+}
+
+#centro{
+    display: grid;
+    grid-template-columns: repeat(1);
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-top: 5%;
+}
+
+#discord{
+    background-color: #3c45a7;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px 1%;
+}
+
+#steam{
+    background-color:  #13265a;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px 1%;
+}
+
+#steam a{
+    background-color: #164763;
+    color: #fff;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 3px;
+}
+#steam a:hover{
+    background-color: #386c8a;
+}
+
+#epic{
+    background-color: #1a1a1a;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px 1%;
+}
+#riot{
+    background-color: #bd0003;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px 1%;
+}
+
+.imagens{
+    width: 50px;
+    height: auto;
+}
